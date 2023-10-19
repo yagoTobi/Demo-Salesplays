@@ -1,0 +1,188 @@
+.ResultsPage {
+    background-color: #21A0DF;
+    height: 110%;
+  }
+  
+  .banner {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  
+  .category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  
+  .category-list li {
+    flex-grow: 1;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .category-list li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  
+  .category-list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 2%;  /* Adds space between the columns */
+  }
+  
+  .preview-column {
+    flex: 1;
+    padding: 10px;
+    width: 20%;  /* Adjusted width */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);  /* Added shadow for distinction */
+  }
+
+  .preview-banner {
+    background-color: white; 
+    padding: 15px; /* Inner padding for the white banner */
+    color: black; /* Text color */
+    border-radius: 10px;
+  }
+  
+  .preview-banner hr {
+    border: 1px solid black; /* Delimeter color */
+    margin-top: -10px;
+  }
+
+  
+  .sales-plays-column {
+    margin-top: 10px;
+    border-radius: 10px;
+    flex: 1;
+    width: 60%;  /* Adjusted width */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);  /* Added shadow for distinction */
+    background-color: white;
+  }
+  
+  .chatgpt-column {
+    flex: 1;
+    width: 15%;
+  }
+  
+  .pill {
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  
+  .pill1 { background-color: #FFCCCB; }
+  .pill2 { background-color: #CCFFCC; }
+  .pill3 { background-color: #CCCCFF; }
+  .pill4 { background-color: #FFCCFF; }
+  .pill5 { background-color: #FFFFCC; }
+  .pill6 { background-color: #FFC1E0; }
+  
+  /* For pill hover effect */
+  .pill:hover {
+    opacity: 0.7;
+  }
+  
+  
+  
+  /* ... existing styles ... */
+/* ... existing styles ... */
+  
+  .chatgpt-response {
+    margin-bottom: 10px;
+  }
+  
+  .message-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .message-bar input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+/* ... existing styles ... */
+
+/* styles.css */
+.dropdown {
+    position: absolute;
+    /* Style as you like */
+  }
+
+  /* styles.css */
+/* styles.css */
+.dropdown-menu {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 24%;  /* Cover the entire width of the button */
+    text-align: center;  /* Center-align text */
+    list-style-type: none;  /* Remove bullet points */
+    margin: 0;  /* Remove default margin */
+    padding: 0;  /* Remove default padding */
+  }
+  
+  .dropdown-menu li {
+    padding: 8px;  /* Add some padding for better appearance */
+  }
+  
+  
+
+.chatgpt-banner {
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 10px;
+    flex:1;
+  }
+  
+  .ask-button {
+    padding: 8px 16px;
+    background-color: #21A0DF;  /* Button color */
+    color: white;  /* Text color */
+    border: none;
+    border-radius: 5px;  /* Rounded corners */
+  }
+  
+  .ask-button:hover {
+    background-color: #1c8db9;  /* Darker shade on hover */
+  }
+  
+
+  .panel {
+    display: flex;
+    flex-direction: column;
+    /* ... Add other styles as needed ... */
+  }
+  
+  .sales-play {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

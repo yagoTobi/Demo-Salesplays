@@ -1,0 +1,107 @@
+.SearchPage {
+    background-color: #21A0DF;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .App-header {
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
+  .search-panel {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%;
+  }
+  
+  .search-bar-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;  /* Adds the delimiter */
+    padding-bottom: 20px;  /* Adds some space below the search bar */
+    margin-bottom: 20px;  /* Adds some space below the delimiter */
+  }
+  
+  
+  .search-bar {
+    width: 80%;
+    padding: 10px;
+    border: none;  /* Removes the border */
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .classifiers {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .classifier-column {
+    flex: 1;
+  }
+  
+  .classifier-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .classifier-title {
+    margin-right: 10px;
+    color:black;
+    padding-left: 10%;
+    white-space: nowrap;  /* Prevents wrapping */
+    overflow: hidden;     /* Hides overflow content */
+    text-overflow: ellipsis;  /* Adds an ellipsis when the text overflows */
+  }
+  
+  .classifier {
+    flex-grow: 1;
+  }
+  
+  .footer{
+    background-image: url(SalesforceWallpaper.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .classifier-item {
+      flex-wrap: wrap;
+    }
+    .classifier-title {
+      width: 100%;
+    }
+    .classifier {
+      width: 100%;
+    }
+  }
+  
+  .context-header {
+    font-size: 1.2em;
+    font-weight: bold; /* Makes the text bolder */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: left;
+    padding-left: 5%; /* Matches the padding of your classifier titles */
+  }
+  
+  
